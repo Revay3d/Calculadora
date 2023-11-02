@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&family=Righteous&display=swap');
+
+
+body{
+    background-color: #0C0C0C ;
+    color: #CCCCCC;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Righteous', cursive;
+
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131313;
+    width: 100%;
+    height:65px;
+    padding:40px 5%;
+ flex-flow: row wrap;
+}
+
+
+.caja_items__item {
+   font-size: 20px;
+    display: inline-block;
+   
+    margin: 10px;
+    list-style: none;
+   
+
+}
+
+.caja_items__item a:hover{
+color: aqua;
+}
+
+.caja_items__item a{ 
+    transition: .5s;
+    color: #fff;
+    text-decoration: none;
+}
+
+.nav__logo{
+    color: #fff;
+    font-size:40px;
+}
+
+.header{
+    font-weight: 100;
+
+}
+
+.header__aleta{
+    background-color: #0061ac;
+    padding: 25px 7%;
+    font-size: 20px;
+    color: #fff;
+    
+}
+
+.alerta__titulo{
+    font-size: 40px;
+}
+
+.alerta__resaltar{
+    font-weight:1000;
+}
+.main__caja{
+
+    display: flex;
+    flex-flow: row wrap;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 4% auto;
+}
+
+#ventana2{
+   
+    margin-top: 70px;
+ }
+ #ventana3{
+   
+    margin-top: 150px;
+ }
+
+
+.caja__ventana{
+    margin: 20px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    border: #CCCCCC solid 2px;
+    width: 400px;
+   
+   
+    background-color: #0f0f0f;
+    
+    display: flex;
+    flex-direction: column;
+}
+.ventana__contenido{
+    padding: 40px 30px ;
+}
+
+.ventana__decoracion{
+    display: flex;
+    justify-content: start;
+ width: 100%;
+background-color: #CCCCCC;
+padding: 10px;
+}
+
+.decoracion__item {
+    margin: 5px;
+    content: "";
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #0061ac;
+}
+
+.rojo{
+    background-color: #fd6364;
+}
+
+.amarillo{
+    background-color: #fcc231;
+}
+
+.verde{
+    background-color:#38c053;
+}
+
+
+.ventana__titulo{
+    font-weight: bold;
+    font-size: 40px;
+    color: #0061ac;
+    margin: 0 auto 10px;
+}
+.ventana__descripcion{
+    color: #cccccccb;
+  
+    font-weight: 300;
+    padding: 7px 10px;
+}
+
