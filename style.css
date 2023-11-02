@@ -18,8 +18,9 @@ body{
     justify-content: space-between;
     background-color: #131313;
     width: 100%;
-    height:65px;
-    padding:40px 5%;
+    height:100px;
+    padding:5px 5%;
+    text-align: center;
  flex-flow: row wrap;
 }
 
